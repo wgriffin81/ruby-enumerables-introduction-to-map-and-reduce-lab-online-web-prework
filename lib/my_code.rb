@@ -16,7 +16,7 @@ def map_to_no_change(source_array)
   i = 0 
   while i < source_array.size do 
     element = source_array[i]
-    new_array << (1 * element)
+    new_array << element
     i += 1 
   end
   new_array
