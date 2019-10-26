@@ -23,7 +23,14 @@ def map_to_no_change(source_array)
 end
 
 def map_to_double(source_array)
-  
+  new_array = []
+  i = 0 
+  while i < source_array.size do 
+    #element = source_array[i]
+    new_array << (2 * source_array[i])
+    i += 1 
+  end
+  new_array
 end
 
 def map_to_square(source_array)
