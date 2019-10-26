@@ -38,7 +38,7 @@ def map_to_square(source_array)
   i = 0 
   while i < source_array.size do 
     #element = source_array[i]
-    new_array << (-1 * source_array[i])
+    new_array << (source_array[i] * source_array[i])
     i += 1 
   end
   new_array
