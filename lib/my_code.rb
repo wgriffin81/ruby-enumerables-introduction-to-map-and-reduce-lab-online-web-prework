@@ -47,15 +47,13 @@ end
 
 #######  REDUCE   ######
 def reduce_to_total(source_array, starting_point)
-  new_array = []
+  new = starting_point
   i = 0 
   while i < source_array.size do 
-    total = starting_point   
-    current_element = source_array[i]
-    new_array << (total + current_element[i])
+    new << +=source_array[i]
     i += 1 
   end
-  new_array
+  new
 end 
 
 def reduce_to_all_true(source_array)
